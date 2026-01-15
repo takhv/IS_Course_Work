@@ -118,4 +118,5 @@
   - Frontend: React 19,
   - Backend: Spring Boot 4,
   - DB: PostgreSQL
+ - #text(lang: "ru")[Развёртывание]: Docker, Docker Compose
 ]
