@@ -115,8 +115,8 @@
 
 == Архитектура
 #text(lang: "en")[
-  - Frontend: React 19,
-  - Backend: Spring Boot 4,
-  - DB: PostgreSQL
+  - Frontend: React 19, TypeScript,
+  - Backend: Spring Boot 4, Spring Security, Spring Data JPA,
+  - DB: PostgreSQL,
  - #text(lang: "ru")[Развёртывание]: Docker, Docker Compose
 ]
