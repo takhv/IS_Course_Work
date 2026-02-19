@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: lol
+  datasource:
+    url: jdbc:postgresql://localhost:5433/lol
+    username: s368892
+    password: wasd
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 3939
+
+app:
+  jwt:
+    secret: your-secret-key-change-this-in-production-very-important-secret-key
+    expiration: 86400000
+
