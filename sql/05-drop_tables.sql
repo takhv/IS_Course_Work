@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS draft_session      CASCADE;
+DROP TABLE IF EXISTS player_stats       CASCADE;
+DROP TABLE IF EXISTS draft              CASCADE;
+DROP TABLE IF EXISTS champion           CASCADE;
+DROP TABLE IF EXISTS match_result       CASCADE;
+DROP TABLE IF EXISTS match              CASCADE;
+DROP TABLE IF EXISTS tournament_registration CASCADE;
+DROP TABLE IF EXISTS tournament_rules   CASCADE;
+DROP TABLE IF EXISTS tournament         CASCADE;
+DROP TABLE IF EXISTS team_membership    CASCADE;
+DROP TABLE IF EXISTS team               CASCADE;
+DROP TABLE IF EXISTS player             CASCADE;
